@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane as a string.
+// We create a conditional stating if name equals only Mary the code would log out 'Hi Mary!'
+// Conditional uses the strict comparison operator ===, which does not correspond to declaration of name.
+// Since Mary is not the value of name we console.log 'How do you do?' 
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare secret. We declare code and set its value to 123 as a number.
+// We check if code only equals 123. If that is the case it assigns the value "super"
+// and reassigns the variable "code" to itself times 2. If the value of "code" is greater than
+// 250 super is assigned the value of "duper" and logs out "duper". 
+// Since code equals 123 but code * 2 is 246 and not greater than 250 we console.log "super".
 
 //CODE
 /*
@@ -70,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare isStudent and assigns bollean value to true. We declare age and assign the number value of 34. 
+// We declare zip and assigns the number value of 34. We check if isStudent is always true and zip is 
+// greater than 80000. Then we check if isStudent is false and age is less than 30. We check if isStudent is always true.
+// If no previous conditions are met we have a fourth console.log option. Since isStudent === true is the only accurate
+// we console.log "Welcome to Prime!"
 
 //CODE
 /*
@@ -134,6 +136,7 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - after colorOne add comma space colorTwo to assign the value of purple to both since mix equals true
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +150,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - || represents "or". Replace with && which means "and"
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +164,12 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - this configuration will log 'no entry' for 21 year olds. Should be:
+// if(age >= minAge) {
+//   console.log('enter');
+// else {
+//   console.log('no entry');
+// }
 if(minAge <= age) {
   console.log('no entry');
 } else {
