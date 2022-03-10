@@ -72,7 +72,7 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // We declare isStudent and assigns bollean value to true. We declare age and assign the number value of 34. 
-// We declare zip and assigns the number value of 34. We check if isStudent is always true and zip is 
+// We declare zip and assigns the number value of 55407. We check if isStudent is always true and zip is 
 // greater than 80000. Then we check if isStudent is false and age is less than 30. We check if isStudent is always true.
 // If no previous conditions are met we have a fourth console.log option. Since isStudent === true is the only accurate
 // we console.log "Welcome to Prime!"
@@ -132,13 +132,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
-// FIX - after colorOne add comma space colorTwo to assign the value of purple to both since mix equals true
-if (mix === true) {
-  colorOne = 'purple';
+// FIX - Check if mix is true, it is, reassign values of both colors to purple
+if (mix === true){
+  colorOne = 'purple;
+  colorTwo = 'purple';
 }
 */
 
